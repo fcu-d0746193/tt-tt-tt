@@ -31,7 +31,7 @@ num = 0
 imput = ""
 page = 1
 
-@app.route("/callback", methods=["GET", "POST"])
+@app.route("/", methods=["GET", "POST"])
 def callback():
 
     if request.method == "GET":
