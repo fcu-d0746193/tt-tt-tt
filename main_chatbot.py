@@ -116,7 +116,7 @@ def handle_message(event):
                 eat_time = ""
                 food_type = ""
     else : 
-        print("請先書入圖文選單功能後進行輸入")
+        line_bot_api.reply_message(event.reply_token,TextSendMessage(text = "任意選擇一項功能吧"))
 
 
 #if __name__ == "__main__":
