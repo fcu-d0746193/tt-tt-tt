@@ -119,5 +119,5 @@ def handle_message(event):
         line_bot_api.reply_message(event.reply_token,TextSendMessage(text = "任意選擇一項功能吧"))
 
 
-#if __name__ == "__main__":
-#    app.run()
+if __name__ == "__main__":
+    app.run()
